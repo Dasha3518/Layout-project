@@ -1,0 +1,146 @@
+@media (max-width:1200px) {
+.container {
+    width: 1024px;
+
+}
+.banner__modern-title {
+    width: 455px;
+}
+.line {
+    width: 115px;
+}
+.banner__modern-button {
+    width: 183px;
+    height: 50px;
+}
+.banner__form{
+    width: 398px;
+}
+}
+
+
+@media (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+    .icons {
+        margin-right: 20px;
+    }
+    .ico {
+        width: 64px;
+        height: 64px;
+    }
+    .icon {
+        width: 55px;
+        height: 55px;
+    }
+
+    .comments {
+        width: 317px;
+    }
+    .section__social-ico {
+        width: calc(60% - 10px);
+        /* display: flex; */
+        /* justify-content: space-between; */
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat( 7, 14.28% );
+        /* grid-template-columns: 16% 16% 16% 16% 16% 16% 16%; */
+    }
+}
+@media (max-width: 1000px) {
+    .about__block {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 31.3% 31.3% 31.3%;
+    }
+    .block {
+        width: 315px;
+    }
+    .customer__manager {
+        font-size: 15px;
+    }
+    .customer__name {
+        font-size: 20px;
+    }
+}
+@media (max-width: 993px){
+    .comments {
+        width: 300px;
+    }
+}
+@media (max-width: 993px) {
+    .block {
+        width: 300px;
+    }
+}
+
+
+
+
+@media (max-width: 940px) {
+    .block {
+        width: 285px;
+    }
+    .comments {
+        width: 285px;
+    }
+    
+}
+
+
+
+@media (max-width: 768px)  {
+    .block {
+        width: 240px;
+    }
+    .customer__info-all {
+        display: grid;
+        grid-template-rows: 255px auto;
+    }
+    .section__social-info {
+
+        text-align: center;
+        margin-right: 30px;
+        width: 100%;
+    }
+    .section__social .container {
+
+        display: inline-block;
+    }
+    .comments {
+        width: 230px;
+    }
+    .section__social-ico {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ico {
+        background-size: 88%;
+    }
+    .section__social p {
+        margin-bottom: 10px;
+    }
+    .about__block {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 31.3% 31.3% 31.3%;
+    }
+    .banner__form {
+        height: 385px;
+    }
+    .banner__form-text {
+        font-size: 18px;
+    }
+    .banner__form-info {
+        padding: 0px 25px;
+        margin-bottom: 40px;
+    }
+}
+
+
+@media (max-width: 425px) {
+   
+}
